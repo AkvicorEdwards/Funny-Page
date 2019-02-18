@@ -81,3 +81,23 @@ $(function(){
 	}
 
 });
+
+
+
+// // 标题变化 独立
+// window.onload = function() {
+// 	var OriginTitile = document.title;
+// 	var titleTime;
+// 	document.addEventListener('visibilitychange', function() {
+// 			if (document.hidden) {
+// 					$('[rel="icon"]').attr('href', "/TEP.ico");
+// 					document.title = '╭(°A°`)╮ 页面崩溃啦 ~ 快回来看看~ | 91Linux！';
+// 					clearTimeout(titleTime);
+// 			} else {
+// 					$('[rel="icon"]').attr('href', "/favicon.ico");
+// 					document.title = '(ฅ>ω<*ฅ) 噫又好了~' + OriginTitile;
+// 					titleTime = setTimeout(function() {
+// 							document.title = OriginTitile;
+// 					}, 2000);
+// 			}
+// 	});
